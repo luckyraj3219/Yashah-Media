@@ -1,7 +1,7 @@
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-12 px-6" style={{ backgroundColor: "#28282B" }}>
-      <h2 className="text-3xl font-bold text-center mb-8 text-white">Our Gallery</h2>
+    <section id="gallery" className="py-12 px-6 bg-white">
+      <h2 className="text-3xl font-bold text-center mb-8 text-black">Our Gallery</h2>
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {[1, 2, 3, 4, 5, 6].map((i) => (
           <div
